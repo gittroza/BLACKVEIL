@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bv-bg:#000000;
+  --bv-silver:#bcbcbc;
+  --bv-violet:#8b5cf6;
+}
+
+html,body,#root{height:100%;}
+body{background:var(--bv-bg);color:var(--bv-silver);}
+
+.app-container{min-height:100vh;display:flex;flex-direction:column}
